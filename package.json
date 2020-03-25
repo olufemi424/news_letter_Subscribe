@@ -1,21 +1,19 @@
 {
-  "name": "newsletter_signup_mailchimp",
-  "version": "1.0.0",
-  "description": "Simple news letter app using mailchimp",
-  "main": "app.js",
-  "scripts": {
-    "test": "node app",
-    "dev": "nodemon app"
-  },
-  "author": "olufemiaf",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "nodemo": "^1.0.0",
-    "nodemon": "^1.18.7"
-  }
+	"name": "newsletter_signup_mailchimp",
+	"version": "1.0.0",
+	"description": "Simple news letter app using mailchimp",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon app"
+	},
+	"author": "olufemiaf",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.4",
+		"request": "^2.88.0"
+	},
+	"devDependencies": {
+		"nodemo": "^1.0.0",
+		"nodemon": "^1.18.7"
+	}
 }
