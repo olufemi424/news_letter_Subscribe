@@ -1,6 +1,7 @@
 const express = require("express");
 const request = require("request");
 const path = require("path");
+const config = require("./config");
 
 const app = express();
 
@@ -42,7 +43,7 @@ app.post("/signup", (req, res) => {
 		url: "https://us19.api.mailchimp.com/3.0/lists/80a18afb52",
 		method: "POST",
 		headers: {
-			Authorization: "auth b90d8993e16035e335aa35efabe11de5-us19"
+			Authorization: `auth ${config.API_KEY}`
 		},
 		body: postData
 	};
